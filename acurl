@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+curl -H "Content-Type: application/x-www-form-urlencoded" -d "hej=du&hehe=hea" -v "http://localhost:3002"
