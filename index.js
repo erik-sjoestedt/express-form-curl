@@ -7,6 +7,8 @@ app.use(bodyParser.urlencoded({
   extended: false 
 }))
 
+app.use(express.static('html'))
+
 app.post('/', function (req, res) {
   console.log("req.body")
   console.log(req.body)
